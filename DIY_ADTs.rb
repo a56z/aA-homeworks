@@ -67,6 +67,6 @@ class Stack
     end
 
     def delete(key)
-        underlying_array.reject! { |pair| pair[0] == key ] }
+        underlying_array.reject! { |pair| pair[0] == key }
     end
   end
